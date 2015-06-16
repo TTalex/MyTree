@@ -1,0 +1,63 @@
+body{
+    background: url("/MonArbre/MyTreeBg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+
+#top{
+    background-color: rgba(195, 226, 242, 0.7);
+    padding-bottom: 10px;
+    color: black;
+    box-shadow: 0px 10px 10px rgba(195, 226, 242, 0.7);;
+}
+#language{
+    position: absolute;
+    top: 0%;
+    left: 80%;
+}
+h1{
+    margin: 0px;
+}
+h2{
+    margin-bottom: 0px;
+}
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 60%;
+    background-color: rgba(240, 240, 240, 0.7);
+    box-shadow: 0px 0px 5px 5px rgba(240, 240, 240, 0.7);
+    padding:  0.5em 2% 1em;
+    
+}
+select, input{
+    margin-top: 10px;
+}
+#line{
+    height: 10px;
+    background: url("line.png");
+    background-size: 10% 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+#map-canvas{
+    height: 70%;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    #main{
+	max-width: 100%;
+    }
+    #line{
+	background-size: 30% 100%;
+    }
+    #language{
+	right: 0%;
+    }
+}
