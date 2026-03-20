@@ -45,7 +45,7 @@ select, input{
     margin-top: 50px;
     margin-bottom: 40px;
 }
-#map-canvas{
+#map{
     height: 70%;
     margin-top: 10px;
 }
